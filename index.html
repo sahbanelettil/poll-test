@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keypress Beep App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#1a1a2e" />
+    <link rel="apple-touch-icon" href="icon-192.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Press Any Key</h1>
+        <p>When you press any key on your keyboard, a pleasant beep will play.</p>
+        <!-- Hidden audio element (fallback) -->
+        <audio id="beep-audio" src="beep.mp3" preload="auto"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
